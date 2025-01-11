@@ -9,7 +9,7 @@ spec:
       app: student
   strategy:
     type: Recreate
-    minReadySeconds: 20
+ #   minReadySeconds: 20
   template:
     metadata:
       name: studentapp-pod
